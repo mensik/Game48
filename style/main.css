@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url('../images/bg_grey.jpg');
+    font-family: Georgia;
+}
+
+p {
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+div.main {
+    width: 800px;
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+   
+    
+    border-width: 3px;
+    border-color: #444444;
+    border-style: solid;
+}
+
+div.content {
+    padding: 10px 10px 10px 10px;
+}
+
+div.menu {
+    width: 100%;
+    height: 25px;
+    
+    background-color: #444444;
+    
+    font-size: 12pt;
+    color: white;
+}
+
+div.menu ul {
+    list-style: none;
+    padding-top: 2px;
+}
+
+div.menu ul li {
+    float: left;
+    margin-left: 45px;
+}
+
+div.menu a {
+    color: white;
+    text-decoration: none;
+}
+
+div.left_block {
+    float: left;
+    width: 380px;
+}
+
+div.right_block {
+    float: right;
+    width: 380px;
+}
+
+div.foot {
+    clear: both;
+}
+
+table.gridtable {
+
+    font-size: 11px;
+    color: #333333;
+    border-width: 1px;
+    border-color: #666666;
+    border-collapse: collapse;
+}
+
+table.gridtable th {
+    border-width: 1px;
+    padding: 8px;
+    border-style: solid;
+    border-color: #666666;
+    background-color: #dedede;
+}
+
+table.gridtable td {
+    border-width: 1px;
+    padding: 8px;
+    border-style: solid;
+    border-color: #666666;
+    background-color: #ffffff;
+}
+
+table.gridtable td.empty {
+    border-width: 0px;
+}
+
+table.big_zebra {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 25px;
+}
+
+table.big_zebra td {
+    padding: 5px;
+}
+
+table.big_zebra tr.even {
+    background-color: #dedede;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    margin-top: 25px;
+    margin-bottom: 5px;
+}
+
+h3 {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.to_move {
+    background-color: #bde3b7;
+}
+
+div.unit  {
+   display: inline-block;
+   padding: 10px;
+    
+}
+
+div.info {
+  position: relative; 
+}
+
+.over {
+    position: absolute;
+    left: 0px;
+    top: -70px;
+    
+    font-size: 22pt;
+    font-weight: bolder;
+    color: red; 
+}
+
